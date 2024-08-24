@@ -1,0 +1,42 @@
+Luminex SDK Instructions
+
+1. Overview: Luminex SDK is a comprehensive Python library that includes essential packages for game development and graphics. It combines pygame, pyglet, and PyOpenGL to provide a robust environment for creating interactive applications for the Luminex console.
+
+2. Installation:
+
+a. Using the SDK:
+
+Download the Luminex SDK package from the provided source.
+Extract the contents of the package to a directory of your choice.
+b. Setting Up the Python Path:
+
+Open Command Prompt (Windows) or Terminal (macOS/Linux).
+Add the SDK directory to your Python path using the following command:
+
+set PYTHONPATH=%PYTHONPATH%;C:\Users\YourUsername\path\to\luminex_sdk
+
+Replace C:\Users\YourUsername\path\to\luminex_sdk with the actual path where the SDK is located.
+3. Installing Dependencies:
+
+
+Ensure that you have pip installed. If not, install it using:
+
+python -m ensurepip --upgrade
+
+
+Navigate to the directory containing the requirements.txt file:
+
+
+cd C:\Users\YourUsername\path\to\luminex_sdk
+Install the required packages by running:
+
+pip install -r requirements.txt
+
+4. Using the SDK: Run the Luminex SDK Example.py for the example
+
+5. to test if everything is set up successfully Run the test_import.py if it says Luminex SDK imported successfully! then you did it successfully   
+
+6. Troubleshooting: Ensure that the luminex_sdk is properly added to your Python path.
+Verify that pygame, pyglet, and PyOpenGL are correctly installed by checking the requirements.txt file and the installed packages.
+
+7. Contact: For support or inquiries or help, please contact jaden.citizens.x@gmail.com or the Discord server https://discord.gg/AMJYqQynWX.
